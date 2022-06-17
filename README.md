@@ -1,2 +1,2 @@
 # Crypto-Wallet-BE
-Crypto wallet (Backend) built with Web3, Node, Express, and PostgreSQL
+Crypto wallet (backend) built with `Web3.js`, `Node.js`, `Express.js`, and `PostgreSQL`
