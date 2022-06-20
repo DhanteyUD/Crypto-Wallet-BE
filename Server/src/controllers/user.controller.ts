@@ -31,7 +31,7 @@ export const registerUser = async (
 
     pool.query(signupQuery, async (err: any, result: any) => {
       if (!err) {
-        const link = `http://localhost:3000/auth/verify-email/?verifyToken=${newToken}`;
+        const link = `https://lightpay-cw.netlify.app/auth/verify-email/?verifyToken=${newToken}`
 
         const verifiedEmail = passLink(fullname.split(' ')[0], link);
         sendEmail(email, 'Verify your LightPay Account', verifiedEmail);
